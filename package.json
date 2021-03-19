@@ -1,0 +1,30 @@
+{
+  "name": "apirest-rocketseat",
+  "version": "1.0.0",
+  "description": "1. [Objetivo do Projeto](#dart-objetivo-do-projeto)\r 2. [Sobre](#page_with_curl-sobre)\r 3. [Tecnologias Utilizadas](#rocket-tecnologias-utilizadas)\r 4. [Requisitos](#gear-requisitos)\r 5. [Rodar o Projeto](#arrow_forward-rodar-o-projeto)\r 6. [Resultado](#keyboard-resultado)\r 7. [Redes Sociais](#man_technologist-redes-sociais)",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.1",
+    "nodemailer": "^6.5.0",
+    "nodemailer-express-handlebars": "^3.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitordevsp/api-rest-rocketseat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitordevsp/api-rest-rocketseat/issues"
+  },
+  "homepage": "https://github.com/vitordevsp/api-rest-rocketseat#readme"
+}
